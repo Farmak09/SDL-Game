@@ -1,0 +1,7 @@
+﻿  ModuleWindow.cpp
+c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.cpp(13): warning C4002: too many actual parameters for macro 'LOG'
+  Application.cpp
+c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C2143: syntax error: missing ';' before '*'
+c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
