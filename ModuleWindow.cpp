@@ -10,17 +10,17 @@ bool ModuleWindow::Init()
 		
 	if (SDL_Init(SDL_INIT_VIDEO) != 0)
 	{
-		LOG("Window creation error %s", SDL_GetError());
+		LOG("Window initialitzation error %s", SDL_GetError());
 		ret = false;
 	}
+	if (SDL_CreateWindow("Test", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, 0) == NULL)
+	{
+		LOG("Window creation error %s", SDL_GetError());
+	}
+	
 	return ret;
 }
 
-// TODO 2: Init the library and check for possible error
-// using SDL_GetError()
-
-// TODO 3: pick the width and height and experiment with flags: borderless / fullscreen / resizable,
-// then create the window and check for errors
 
 // TODO 4: Finally create a screen surface and keep it as a public variable
 

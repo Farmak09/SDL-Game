@@ -1,6 +1,7 @@
 #ifndef __ModuleWindow_H__
 #define __ModuleWindow_H__
 
+#include "SDL/include/SDL.h"
 class ModuleWindow : public Module 
 {
 public:

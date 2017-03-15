@@ -1,7 +1,8 @@
-﻿  ModuleWindow.cpp
-c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.cpp(13): warning C4002: too many actual parameters for macro 'LOG'
-  Application.cpp
-c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C2143: syntax error: missing ';' before '*'
-c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\jaumesv1\desktop\sdl2_handout\modulewindow.h(14): error C2238: unexpected token(s) preceding ';'
+﻿  Application.cpp
   Generating Code...
+  Compiling...
+  ModuleWindow.cpp
+c:\users\jaume\documents\github\sdl-game\modulewindow.cpp(13): warning C4002: too many actual parameters for macro 'LOG'
+c:\users\jaume\documents\github\sdl-game\modulewindow.cpp(18): warning C4002: too many actual parameters for macro 'LOG'
+  Generating Code...
+  SDL Game.vcxproj -> C:\Users\Jaume\Documents\GitHub\SDL-Game\Debug\SDL2 Handout.exe
